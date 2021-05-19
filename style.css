@@ -13,12 +13,14 @@ body{
 .textoslider{
     font-family: Arial, Helvetica, sans-serif;
     bottom: 0px;
-    color: orange;
+    color: rgb(255, 255, 255);
+    
     display: block;
     text-align: center;
     margin-top: -80px;
     font-size: 3rem;
 }
+
 
 label{
     display: none;
@@ -83,6 +85,7 @@ a:link, a:visited, a:active {
 .madre{
     font-family: Arial, Helvetica, sans-serif;
     margin: 50px 150px;
+    padding-bottom: 20px;
 }
 
 .sub{
@@ -112,7 +115,7 @@ a:link, a:visited, a:active {
 
 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    letter-spacing: 0.02rem;
+
 }
 #thirdh2{
     color: #661f7a;
@@ -124,6 +127,46 @@ p{
     margin-top: -25px;
 }
 
+footer{
+    background-color: #661f7a;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 70px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+}
+
+.footer h1{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+button{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 0px;
+    
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.253);
+    
+}
+
+button a{
+    color: white;
+}
 /*MOVILES*/
 
 @media screen and (max-width: 700px) {
@@ -150,11 +193,6 @@ p{
         display: initial;
         margin: 25px 50px;
     }
-
-    #logo{
-     
-    }
-
 
     nav{
         visibility: hidden;
