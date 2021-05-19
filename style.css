@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(#fff);
+}
+
+#btn-menu{
+    display: none;
+}
+
+
+
+.textoslider{
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    
+    display: block;
+    text-align: center;
+    margin-top: -80px;
+    font-size: 3rem;
+}
+
+
+label{
+    display: none;
+    position: absolute;
+    right: 0px;
+    margin: 30px 50px;
+    font-size: 1.7rem;
+}
+
+label:active{
+    color: rgb(126, 124, 124);
+}
+
+
+
+header{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    box-shadow: 0px 5px 20px -5px rgb(85, 84, 84);
+    text-align: center;
+    z-index: 900;
+}
+
+#logo{
+    position: absolute;
+    left: 50px;
+    z-index: -1;
+}
+
+
+nav ul{
+    list-style: none;
+    margin: 25px 0px;
+    padding: 0px 0px;
+    z-index: 60;
+}
+
+nav li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0px 25px;
+}
+nav ul li a{
+    color: #ababab;
+}
+
+#afiliatecolor a{
+    color: #661f7a !important;
+    font-weight: bold;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+
+}
+
+.madre{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 150px;
+    padding-bottom: 20px;
+}
+
+.sub{
+    text-align: center;
+}
+
+#imagenslider{
+    margin-top: 70px;
+}
+
+.sub h1{
+    color: #661f7a;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+
+}
+
+#firsth1{
+    margin-top: -5px;
+}
+
+#firsth2{
+    color: #ababab;
+    font-size: 1rem;
+
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#thirdh2{
+    color: #661f7a;
+    margin-top: -20px;
+}
+
+#afiliatedesdenuestraweb{
+    color: orange;
+    margin-top: -25px;
+}
+
+footer{
+    background-color: #661f7a;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 70px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+}
+
+.footer h1{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+button{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 0px;
+    
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.253);
+    
+}
+
+button a{
+    color: white;
+}
+/*MOVILES*/
+
+@media screen and (max-width: 700px) {
+    .madre{
+        margin: 50px 50px;
+    }
+    
+    nav li{
+        font-size: 25px;
+    }
+
+    nav ul{
+        list-style: none;
+        margin: 25px 0px;
+        padding: 0px 50px;
+        z-index: 60;
+    }
+
+    #btn-menu{
+        display: none;
+    }
+
+    label{
+        display: initial;
+        margin: 25px 50px;
+    }
+
+    nav{
+        visibility: hidden;
+    }
+ 
+    #btn-menu:checked ~ nav{
+        visibility: visible;
+    }
+
+    #btn-menu:checked ~ #logo{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 537px){
+
+    label{
+        display: initial;
+        margin: 30px 50px;
+    }
+
+    #logo{
+     margin-top: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 356px){
+    label{
+        display: initial;
+        margin: 50px 50px;
+    }
+
+    #logo{
+     margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 609px){
+    .textoslider{
+        margin-top: -120px;
+    }
+}
+
+@media screen and (max-width: 316px){
+    .textoslider{
+        margin-top: -180px;
+    }
+}
